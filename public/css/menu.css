@@ -1,0 +1,100 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff9e1;
+    font-family: Verdana;
+}
+
+#top-menu-wrap{
+    height: 50px;
+    background: #333;
+    text-align: center;
+}
+
+#top-menu{
+    width: 800px;
+    margin: auto;
+    color: #fff;
+}
+
+/* ================= MENU ================= */
+
+ul.menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.menu li{
+    float: left;
+}
+
+ul.menu li a{
+    display: block;
+    padding: 16px 20px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+ul.menu li a:hover{
+    background: #ff9900;
+    color: #000;
+}
+
+ul.menu ul{
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 0;
+    background: #ff9900;
+    z-index: 100;
+    list-style: none;
+}
+
+ul.menu ul li{
+    position: relative;
+    float: none;
+}
+
+ul.menu ul li a{
+    color: #000;
+    width: 200px;
+    text-align: left;
+}
+
+ul.menu ul li a:hover{
+    color: #ccc;
+    background: #333;
+}
+
+ul.menu ul li ul{
+    position: absolute;
+    top: 0;
+    left: 200px;
+    display: none;
+    z-index: 200;
+    list-style: none;
+}
+
+ul.menu ul li ul li{
+    list-style-type: none;
+    position: relative;
+}
+
+/* ================= /MENU ================= */
+
+#content-wrap{
+    text-align: center;
+}
+
+#content-wew{
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: justify;
+}
